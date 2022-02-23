@@ -3839,3 +3839,10 @@ footer .image-divider.fixed-height{
 }
 }
 }
+
+@media screen and (max-width: 400px) {	
+
+.google-map-iframe{
+	width: 340px !important;
+}
+}	
