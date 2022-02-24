@@ -825,7 +825,8 @@
             <form
               method="POST"
               data-netlify="true"
-              data-netlify-recaptcha="true"
+              data-netlify-recaptcha="false"
+              name="contact"
             >
               <div class="col-md-6">
                 <div id="fullname" class="form-group">
@@ -835,7 +836,7 @@
                     class="form-control ajax-input"
                     id="inputname"
                     placeholder=""
-                    name="user-name"
+                    name="userName"
                   />
                 </div>
                 <div id="email" class="form-group">
@@ -844,7 +845,7 @@
                     type="email"
                     class="form-control ajax-input"
                     id="user-email"
-                    name="user-email"
+                    name="userEmail"
                     placeholder=""
                   />
                 </div>
@@ -854,7 +855,7 @@
                   <label for="inputmessage">LEAVE YOUR MESSAGE</label>
                   <textarea
                     id="inputmessage-user"
-                    name="inputmessage-user"
+                    name="inputMessage"
                     class="form-control ajax-input"
                     rows="14"
                   ></textarea>
